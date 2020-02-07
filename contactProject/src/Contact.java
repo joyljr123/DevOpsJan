@@ -10,11 +10,11 @@ public class Contact {
     private String email;
 
     public Contact (String firstName, String lastName, String phone, String email){
+        this.setEmail(email);
+        this.setFirstName(firstName);
+        this.setLastName(lastName);
+        this.setPhone(phone);
 
-        this.firstName=firstName;
-        this.lastName=lastName;
-        this.phone = phone;
-        this.email = email;
     }
 //20 character
     public String getLastName() {

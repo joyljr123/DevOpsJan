@@ -20,7 +20,6 @@ public class MobilePhoneDAO {
 
     public boolean remove(Contact remove){
 
-
         if(!contactArraylist.contains(remove)){
             System.out.println("The contact doesn't exist");
             return false;
